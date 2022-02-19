@@ -14,7 +14,6 @@ int main() {
 	}
 	for (i = 1; i < n; i++) {
 		j = i - 1;
-		printf("%d %d\n", d[i], d[j]);
 		if (d[i] > (d[j] * 2) || d[i] < (d[j] / 2)) {
 			printf("Postupnost nieje spravna");
 			return(0);
